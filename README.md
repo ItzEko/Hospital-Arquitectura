@@ -15,7 +15,7 @@ Este proyecto está compuesto por microservicios diseñados para ser **desacopla
 ### 1. **Microservicio de Autenticación**
 - **Responsabilidad**: Manejo de usuarios, login, control de acceso y generación de tokens.
 - **Ubicación**: `microservicio-autenticacion/`
-- **Tecnologías**: Python, Flask/FastAPI, JWT.
+- **Tecnologías**: Python, Flask/FastAPI.
 
 ### 2. **Microservicio de Historiales Clínicos**
 - **Responsabilidad**: Creación, actualización y consulta de historiales médicos.
@@ -49,7 +49,7 @@ Este proyecto está compuesto por microservicios diseñados para ser **desacopla
 
 ### Requisitos Previos
 - Python 3.10+
-- Docker y Docker Compose
+- Docker
 - AWS CLI (opcional para infraestructura)
 
 ### Clonación del Repositorio
