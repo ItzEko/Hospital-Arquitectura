@@ -55,5 +55,5 @@ Este proyecto está compuesto por microservicios diseñados para ser **desacopla
 ### Clonación del Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/hospital-cloud-infra.git
-cd hospital-cloud-infra
+git clone git@github.com:ItzEko/Hospital-Arquitectura.git
+
