@@ -1,6 +1,6 @@
-# 🏥 Hospital Cloud Infrastructure
+# 🏥 Infraestructura en la nube para un hospital
 
-Bienvenido al repositorio de la infraestructura de servicios en la nube para la gestión hospitalaria.  
+Repositorio de la infraestructura de servicios en la nube para la gestión hospitalaria.  
 Este proyecto está compuesto por microservicios diseñados para ser **desacoplados, escalables y seguros**.
 
 ---
