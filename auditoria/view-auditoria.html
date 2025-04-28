@@ -1,0 +1,74 @@
+<!-- auditoria.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Auditoría y Logs</title>
+    <style>
+        body {
+            background: #eef2f3;
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+        }
+        .audit-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .audit-container h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table thead {
+            background: #343a40;
+            color: white;
+        }
+        table th, table td {
+            padding: 0.75rem;
+            border: 1px solid #dee2e6;
+            text-align: left;
+        }
+        table tbody tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="audit-container">
+    <h2>Registro de Actividades</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Usuario</th>
+                <th>Acción</th>
+                <th>Fecha</th>
+                <th>Detalle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>jdoe</td>
+                <td>Login</td>
+                <td>2025-04-28 09:12</td>
+                <td>Inicio de sesión exitoso.</td>
+            </tr>
+            <tr>
+                <td>asmith</td>
+                <td>Actualizó historial</td>
+                <td>2025-04-28 10:05</td>
+                <td>Actualización del diagnóstico de paciente ID 345.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

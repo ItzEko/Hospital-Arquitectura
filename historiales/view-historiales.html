@@ -1,0 +1,72 @@
+<!-- historial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Historial Clínico</title>
+    <style>
+        body {
+            background: #f8f9fa;
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+        }
+        .historial-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .historial-container h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .historial-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .historial-form input, .historial-form textarea {
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .historial-form button {
+            padding: 0.7rem 2rem;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .historial-form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="historial-container">
+    <h2>Registro de Historial Clínico</h2>
+    <form class="historial-form">
+        <label>Nombre del Paciente</label>
+        <input type="text" placeholder="Ingrese nombre completo">
+
+        <label>Edad</label>
+        <input type="number" placeholder="Edad del paciente">
+
+        <label>Diagnóstico</label>
+        <textarea rows="5" placeholder="Detalles del diagnóstico..."></textarea>
+
+        <label>Tratamiento</label>
+        <textarea rows="5" placeholder="Plan de tratamiento..."></textarea>
+
+        <button type="submit">Guardar Historial</button>
+    </form>
+</div>
+
+</body>
+</html>
